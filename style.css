@@ -1,6 +1,163 @@
+body{
+    font-size:15px;
+    width:100%;
+    height:100%;
+}
+p{
+    font-family:'Lexend Deca', sans-serif;
+    font-weight:400;
+}
+h1,h2,h3,h4{
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight:700;
+    color:hsl(0, 0%, 100%);
+}
+.paragraph{
+    color:hsla(0, 0%, 100%, 0.75);
+}
+.button-sedans{
+    background-color:hsl(0, 0%, 95%);
+    border-radius:15px;
+    width:120px;
+    height:35px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    color:hsl(31, 77%, 52%);
+}
+.button-SUVS {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: hsl(184, 100%, 22%);
+}
+.button-LUXURY {
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 15px;
+    width: 120px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: hsl(179, 100%, 13%);
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.SUVS{
+    background-color:hsl(184, 100%, 22%);
+}
+.LUXURY{
+    background-color: hsl(179, 100%, 13%);
+}
+
 @media(max-width:375px){
 
+.card{
+    display:flex;
+    flex-direction:column;
+    width:85%;
+    height:145vh;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    padding-left:20px;
 }
-@media(min-width:850px){
-    
+.sedans{
+    display:flex;
+    flex-direction:column;
+    height:45vh;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.format{
+    height:45vh;
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    justify-content: center;
+    margin-left:30px;
+}
+.title{
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+}
+.paragraph{
+    margin-top:0;
+    padding-bottom:10px;
+}
+.SUVS{
+    height:45vh;
+}
+.LUXURY{
+    height:45vh;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+}
+
+@media(min-width:1150px){
+
+.card{
+    display:flex;
+    flex-direction:row;
+    width:60%;
+    height:70%;
+    justify-content:center;
+    left:50%;
+    top:50%;
+    position:absolute;
+    transform:translate(-50%, -50%);
+
+}
+.sedans {
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.format {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin-left: 30px;
+}
+.button-sedans{
+    margin-top:40px;
+    height:45px;
+}
+.button-SUVS{
+    margin-top:55px;
+    height:45px;
+}
+.button-LUXURY{
+    margin-top:55px;
+    height:45px;
+}
+.card-img{
+    padding-top:20px;
+}
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.paragraph {
+    padding-bottom:30px;
+    font-size:16px;
+    width:90%;
+    word-spacing:2px;
+}
+.LUXURY {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
 }
